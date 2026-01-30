@@ -40,5 +40,25 @@
 		contador_rainha++;
 	} while (contador_rainha <= casas_rainha);
 
+	printf("\n");
+
+
+/*Movimento do cavalo, estrutura usada: FOR/WHILE. O cavalo anda em "L": 2 casas para baixo 1 casa para a esquerda*/
+
+	int casas_baixo = 2;
+	int casas_esquerda = 1;
+
+	printf("Movimento do Cavalo:\n");
+
+		for (int i = 1; i <= casas_baixo; i++) {
+			printf("Baixo\n");
+		}
+
+	int j = 1;
+	while (j <= casas_esquerda) {
+		printf("Esquerda\n");
+		j++;
+	}
+
 	return 0;
 }
